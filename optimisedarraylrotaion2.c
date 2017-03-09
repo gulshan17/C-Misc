@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -12,6 +13,8 @@ int main() {
         {
            scanf("%d",&a[i]);
     }
+    
+    r-=(int)(r/n);
     
     for(int i=r;i<n;i++)
         {

@@ -14,7 +14,7 @@ int main() {
            scanf("%d",&a[i]);
     }
     
-    r-=(int)(r/n);
+    r%=n;
     
     for(int i=r;i<n;i++)
         {

@@ -14,7 +14,10 @@ int main() {
            scanf("%d",&a[i]);
     }
     
-    r%=n;
+    while(r>n)
+    {
+        r-=n;
+    }
     
     for(int i=r;i<n;i++)
         {
